@@ -1,0 +1,15 @@
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Infrastructure.deps.json
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Infrastructure.dll
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Infrastructure.pdb
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Domain.dll
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Domain.pdb
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.csproj.AssemblyReference.cache
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.AssemblyInfoInputs.cache
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.AssemblyInfo.cs
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.csproj.CopyComplete
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.dll
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\refint\CodigoShopping.Infrastructure.dll
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.pdb
+D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\ref\CodigoShopping.Infrastructure.dll

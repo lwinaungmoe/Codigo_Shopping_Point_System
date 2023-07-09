@@ -1,0 +1,12 @@
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\bin\Debug\net7.0\CodigoShopping.Domain.deps.json
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\bin\Debug\net7.0\CodigoShopping.Domain.dll
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\bin\Debug\net7.0\CodigoShopping.Domain.pdb
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.csproj.AssemblyReference.cache
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.AssemblyInfoInputs.cache
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.AssemblyInfo.cs
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.csproj.CoreCompileInputs.cache
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.dll
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\refint\CodigoShopping.Domain.dll
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.pdb
+D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\ref\CodigoShopping.Domain.dll
