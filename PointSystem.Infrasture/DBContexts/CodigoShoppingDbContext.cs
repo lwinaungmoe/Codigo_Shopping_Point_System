@@ -3,6 +3,7 @@ using CodigoShopping.Infrastructure.BaseRepository;
 using CodigoShopping.Infrastructure.EntityConfigurations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
 
 namespace CodigoShopping.Infrastructure.DBContexts
@@ -39,7 +40,7 @@ namespace CodigoShopping.Infrastructure.DBContexts
             builder.Entity<AppUser>().ToTable(nameof(AppUsers));
             builder.Entity<ShoppingTransaction>().ToTable(nameof(ShoppingTransaction));
             builder.Entity<ShoppingTransactionDetails>().ToTable(nameof(ShoppingTransactionDetails));
-            builder.Entity<PointData>().ToTable(nameof(PointData)).HasKey(c => new { c.AppUserId } );
+            builder.Entity<PointData>().ToTable(nameof(PointData)).Property(x=>x.Id).ValueGeneratedNever();
             builder.Entity<PointSetting>().ToTable(nameof(PointSetting));
         }
 

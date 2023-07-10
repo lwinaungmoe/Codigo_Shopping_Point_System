@@ -54,7 +54,8 @@ namespace PointSystem.API.Services
                             {
                                 NumberPointofAmount = 20,
                                 NumberofPoint = transaction.TransactionPoint,
-                                AppUserId = transaction.AppUserId
+                                AppUserId = transaction.AppUserId,
+                                Id= transaction.AppUserId
                             };
 
                             await _pointDataRepository.InsertAsync(pointData1);
