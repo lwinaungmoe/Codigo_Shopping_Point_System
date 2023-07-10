@@ -4,4 +4,6 @@ Codigo_Shopping_Point_System
 >JWT Authorization ----
 >Redis Cache (local)----
 >Two API (Mobile API,Point System API)
-
+################################
+> In the Package Manager Console window, type the following commands: Chose (Mobile API)
+> Update-Database
