@@ -14,6 +14,8 @@ namespace CodigoShopping.Infrastructure.DBContexts
         {
         }
 
+      
+
         public DbSet<CatalogItem> CatalogItems { get; set; }
         public DbSet<CatalogType> CatalogTypes { get; set; }
 

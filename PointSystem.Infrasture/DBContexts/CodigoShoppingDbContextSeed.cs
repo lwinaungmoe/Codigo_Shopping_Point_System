@@ -9,22 +9,31 @@ namespace CodigoShopping.Infrastructure.DBContexts
         {
             context.Database.EnsureCreated();
 
-            await context.CatalogTypes.AddRangeAsync(
-                        GetPreconfiguredCatalogTypes());
+            if (!context.CatalogTypes.Any())
+            {
+                await context.CatalogTypes.AddRangeAsync(
+                       GetPreconfiguredCatalogTypes());
 
-            await context.SaveChangesAsync();
+                await context.SaveChangesAsync();
+            }
 
-            await context.CatalogItems.AddRangeAsync(
+            if (!context.CatalogItems.Any())
+            {
+                await context.CatalogItems.AddRangeAsync(
 
-                GetPreconfiguredItems());
+                 GetPreconfiguredItems());
 
-            await context.SaveChangesAsync();
+                await context.SaveChangesAsync();
+            }
 
-            await context.PointSetting.AddRangeAsync(
+            if (!context.PointSetting.Any())
+            {
+                await context.PointSetting.AddRangeAsync(
 
-               GetPointSettings());
+                   GetPointSettings());
 
-            await context.SaveChangesAsync();
+                await context.SaveChangesAsync();
+            }
 
             //await context.AppUsers.AddRangeAsync(
 
