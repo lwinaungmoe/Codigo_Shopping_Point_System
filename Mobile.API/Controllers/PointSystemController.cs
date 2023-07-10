@@ -21,7 +21,7 @@ namespace Mobile.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            var pointData = _pointSystemService.GetPointData(id);
+            var pointData =await _pointSystemService.GetPointData(id);
             if (pointData == null)
             {
                 await Task.CompletedTask;

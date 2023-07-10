@@ -10,7 +10,8 @@ namespace Mobile.API.Caching
         {
             ConnectionHelper.lazyConnection = new Lazy<ConnectionMultiplexer>(() =>
             {
-                return ConnectionMultiplexer.Connect(ConfigurationManagerSetting.AppSetting["RedisURL"]);
+                string connectionstring = ConfigurationManagerSetting.AppSetting["RedisURL"];
+                return ConnectionMultiplexer.Connect(connectionstring);
             });
         }
 
