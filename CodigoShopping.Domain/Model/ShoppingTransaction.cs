@@ -10,13 +10,14 @@ namespace CodigoShopping.Domain.Model
     {
         public int Id { get; set; }
 
-        public int? AppUserId { get; set; }  
+        public int AppUserId { get; set; }  
         public AppUser AppUser { get; set; }
         public string TransactionRefno { get; set; }
         public string TransactionType { get; set; }
         public decimal TotalTransactionAmount { get; set; }
         public DateTime TransactionDateTime { get; set; }
         public int  TransactionPoint { get; set; }
+        public bool IsCalculatePoint { get; set; }
         public bool IsDeleted { get; set; }
     }
 

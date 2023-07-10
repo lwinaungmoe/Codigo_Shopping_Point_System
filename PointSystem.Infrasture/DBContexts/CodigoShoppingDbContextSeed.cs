@@ -18,11 +18,19 @@ namespace CodigoShopping.Infrastructure.DBContexts
 
                 GetPreconfiguredItems());
 
+            await context.SaveChangesAsync();
+
             await context.PointSetting.AddRangeAsync(
 
                GetPointSettings());
 
             await context.SaveChangesAsync();
+
+            //await context.AppUsers.AddRangeAsync(
+
+            //  GetAppUser());
+
+            //await context.SaveChangesAsync();
         }
 
         private IEnumerable<CatalogType> GetPreconfiguredCatalogTypes()
@@ -40,7 +48,25 @@ namespace CodigoShopping.Infrastructure.DBContexts
             return new List<PointSetting>()
         {
             new() { Description = "NonAlcohol", Id=1, Name="NonAlcoholPoint", PointAmount = 20.0M, PointMaxScore=500},
-          
+        };
+        }
+
+        private IEnumerable<AppUser> GetAppUser()
+        {
+            return new List<AppUser>()
+        {
+            new() {
+                IsConfirmMobileNumber = true,
+                Email="keyjohn1234@gmail.com",
+                PasswordHash="$11$96yGE.0Ymp8d7jdRE7hWn.m9OGHv30qBHJqIS9wXafB4VbbvMNa3q" ,// 12345,
+                OTPExpirayDateTIme=DateTime.Now.AddDays(1),
+                OtpCode="182047",
+                DeviceId="1",
+                RegisterDateTime=DateTime.Now,
+                IsDeleted=false,
+                MobileNumber="+959448946017",
+                UserName="lwinaungmoe"
+            },
         };
         }
 

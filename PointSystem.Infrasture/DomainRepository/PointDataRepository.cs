@@ -54,7 +54,7 @@ namespace CodigoShopping.Infrastructure.DomainRepository
                 await _context.CommitTransactionAsync(transaction);
             }
 
-            PointData pointData = await _context.PointData.FindAsync(entity.Id);
+            PointData pointData = await _context.PointData.FindAsync(entity.AppUserId);
 
             return pointData;
         }

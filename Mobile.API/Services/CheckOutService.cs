@@ -86,6 +86,11 @@ namespace Mobile.API.Services
             return response;
         }
 
+        public async Task<List<ShoppingTransaction>> GetShoppingTransactions()
+        {
+            return await _shoppingTransaction.GetAllAsync();
+        }
+
         private decimal CalcualteTotalAmount(CheckOutRequest checkOutRequest)
         {
             decimal totalAmount = 0M;

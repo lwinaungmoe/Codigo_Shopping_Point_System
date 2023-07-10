@@ -97,8 +97,8 @@ using (var scope = app.Services.CreateScope())
     var context = services.GetRequiredService<CodigoShoppingDbContext>();
      context.Database.EnsureCreated();
     
-   // var logger = services.GetService<ILogger<CodigoShoppingDbContextSeed>>();
-   // await new CodigoShoppingDbContextSeed().SeedAsync(context, logger);
+    var logger = services.GetService<ILogger<CodigoShoppingDbContextSeed>>();
+    await new CodigoShoppingDbContextSeed().SeedAsync(context, logger);
 
 
 }

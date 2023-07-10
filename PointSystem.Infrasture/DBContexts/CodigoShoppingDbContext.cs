@@ -39,7 +39,7 @@ namespace CodigoShopping.Infrastructure.DBContexts
             builder.Entity<AppUser>().ToTable(nameof(AppUsers));
             builder.Entity<ShoppingTransaction>().ToTable(nameof(ShoppingTransaction));
             builder.Entity<ShoppingTransactionDetails>().ToTable(nameof(ShoppingTransactionDetails));
-            builder.Entity<PointData>().ToTable(nameof(PointData));
+            builder.Entity<PointData>().ToTable(nameof(PointData)).HasKey(c => new { c.AppUserId } );
             builder.Entity<PointSetting>().ToTable(nameof(PointSetting));
         }
 
