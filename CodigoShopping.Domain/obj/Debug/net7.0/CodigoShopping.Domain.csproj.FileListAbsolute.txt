@@ -10,3 +10,15 @@ D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShop
 D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\refint\CodigoShopping.Domain.dll
 D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.pdb
 D:\Codigo Donet\Codigo_Project\CodigoShopping.Domain\obj\Debug\net7.0\ref\CodigoShopping.Domain.dll
+D:\Code Test\Codigo Test\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.csproj.AssemblyReference.cache
+D:\Code Test\Codigo Test\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code Test\Codigo Test\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.AssemblyInfoInputs.cache
+D:\Code Test\Codigo Test\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.AssemblyInfo.cs
+D:\Code Test\Codigo Test\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.csproj.CoreCompileInputs.cache
+D:\Code Test\Codigo Test\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.dll
+D:\Code Test\Codigo Test\CodigoShopping.Domain\obj\Debug\net7.0\refint\CodigoShopping.Domain.dll
+D:\Code Test\Codigo Test\CodigoShopping.Domain\obj\Debug\net7.0\CodigoShopping.Domain.pdb
+D:\Code Test\Codigo Test\CodigoShopping.Domain\bin\Debug\net7.0\CodigoShopping.Domain.deps.json
+D:\Code Test\Codigo Test\CodigoShopping.Domain\bin\Debug\net7.0\CodigoShopping.Domain.dll
+D:\Code Test\Codigo Test\CodigoShopping.Domain\bin\Debug\net7.0\CodigoShopping.Domain.pdb
+D:\Code Test\Codigo Test\CodigoShopping.Domain\obj\Debug\net7.0\ref\CodigoShopping.Domain.dll

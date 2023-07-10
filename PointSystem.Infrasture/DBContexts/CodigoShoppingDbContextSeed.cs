@@ -18,6 +18,10 @@ namespace CodigoShopping.Infrastructure.DBContexts
 
                 GetPreconfiguredItems());
 
+            await context.PointSetting.AddRangeAsync(
+
+               GetPointSettings());
+
             await context.SaveChangesAsync();
         }
 
@@ -28,6 +32,15 @@ namespace CodigoShopping.Infrastructure.DBContexts
             new() { Type = "Alcohol"},
             new() { Type = "Water" },
             new() { Type = "Soda" },
+        };
+        }
+
+        private IEnumerable<PointSetting> GetPointSettings()
+        {
+            return new List<PointSetting>()
+        {
+            new() { Description = "NonAlcohol", Id=1, Name="NonAlcoholPoint", PointAmount = 20.0M, PointMaxScore=500},
+          
         };
         }
 

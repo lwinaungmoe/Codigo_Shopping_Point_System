@@ -2477,11 +2477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codigo Donet\\Codigo_Project\\PointSystem.Infrasture\\CodigoShopping.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Code Test\\Codigo Test\\PointSystem.Infrasture\\CodigoShopping.Infrastructure.csproj",
       "projectName": "CodigoShopping.Infrastructure",
-      "projectPath": "D:\\Codigo Donet\\Codigo_Project\\PointSystem.Infrasture\\CodigoShopping.Infrastructure.csproj",
+      "projectPath": "D:\\Code Test\\Codigo Test\\PointSystem.Infrasture\\CodigoShopping.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Codigo Donet\\Codigo_Project\\PointSystem.Infrasture\\obj\\",
+      "outputPath": "D:\\Code Test\\Codigo Test\\PointSystem.Infrasture\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2501,8 +2501,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Codigo Donet\\Codigo_Project\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj": {
-              "projectPath": "D:\\Codigo Donet\\Codigo_Project\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj"
+            "D:\\Code Test\\Codigo Test\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj": {
+              "projectPath": "D:\\Code Test\\Codigo Test\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj"
             }
           }
         }

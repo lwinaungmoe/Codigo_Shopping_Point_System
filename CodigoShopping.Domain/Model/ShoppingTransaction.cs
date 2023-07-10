@@ -6,28 +6,33 @@ using System.Threading.Tasks;
 
 namespace CodigoShopping.Domain.Model
 {
-    public class Transaction
+    public class ShoppingTransaction
     {
         public int Id { get; set; }
+
+        public int? AppUserId { get; set; }  
+        public AppUser AppUser { get; set; }
         public string TransactionRefno { get; set; }
         public string TransactionType { get; set; }
         public decimal TotalTransactionAmount { get; set; }
         public DateTime TransactionDateTime { get; set; }
+        public int  TransactionPoint { get; set; }
+        public bool IsDeleted { get; set; }
     }
 
-    public class TransactionDetails
+    public class ShoppingTransactionDetails
     {
         public int Id { get; set; }
       
-        public string TransactionId { get; set; }
+        public int TransactionId { get; set; }
 
-        public Transaction Transaction { get; set; }
+        public ICollection<ShoppingTransaction> ShoppingTransaction { get; set; }
 
         public  int CatelogItemId { get; set; }
 
-        public CatalogItem CatalogItem { get; set; }
+        public ICollection<CatalogItem> CatalogItem { get; set; }
 
-        public decimal TransactionAmount { get; set; }
+        public decimal UnitPrice { get; set; }
 
     }
 }

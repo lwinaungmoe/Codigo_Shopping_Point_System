@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bin",
+    "\\CodigoShopping.Domain",
+    "\\PointSystem.Infrasture"
   ],
-  "SelectedNode": "\\D:\\Code Test\\Codigo Test",
+  "SelectedNode": "\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj",
   "PreviewInSolutionExplorer": false
 }

@@ -18,6 +18,11 @@ namespace Mobile.API.ServiceCollectionExtensions
             services.AddScoped<IAppUserService, AppUserService>();
             services.AddScoped<IHelperClass, HelperClass>();
             services.AddScoped<ICacheService, CacheService>();
+            services.AddScoped<ICheckOutService, CheckOutService>();
+            services.AddScoped<IShoppingTransactionDetailsRepository, ShoppingTransactionDetailsRepository>();
+            services.AddScoped<IShoppingTransactionRepository, ShoppingTransactionRepository>();
+            services.AddScoped<IPointDataRepository, PointDataRepository>();
+            services.AddScoped<IPointSettingRepository, PointSettingRepository>();
             return services;
 
         }

@@ -18,6 +18,8 @@ namespace CodigoShopping.Domain.Model
 
         public decimal NumberPointofAmount { get; set; }
 
+        
+
 
     }
 }

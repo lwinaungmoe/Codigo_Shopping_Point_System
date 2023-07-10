@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codigo Donet\\Codigo_Project\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj",
+      "projectUniqueName": "D:\\Code Test\\Codigo Test\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj",
       "projectName": "CodigoShopping.Domain",
-      "projectPath": "D:\\Codigo Donet\\Codigo_Project\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj",
+      "projectPath": "D:\\Code Test\\Codigo Test\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Codigo Donet\\Codigo_Project\\CodigoShopping.Domain\\obj\\",
+      "outputPath": "D:\\Code Test\\Codigo Test\\CodigoShopping.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

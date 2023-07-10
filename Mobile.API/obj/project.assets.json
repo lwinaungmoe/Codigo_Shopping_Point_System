@@ -3483,11 +3483,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codigo Donet\\Codigo_Project\\Mobile.API\\Mobile.API.csproj",
+      "projectUniqueName": "D:\\Code Test\\Codigo Test\\Mobile.API\\Mobile.API.csproj",
       "projectName": "Mobile.API",
-      "projectPath": "D:\\Codigo Donet\\Codigo_Project\\Mobile.API\\Mobile.API.csproj",
+      "projectPath": "D:\\Code Test\\Codigo Test\\Mobile.API\\Mobile.API.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Codigo Donet\\Codigo_Project\\Mobile.API\\obj\\",
+      "outputPath": "D:\\Code Test\\Codigo Test\\Mobile.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3507,11 +3507,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Codigo Donet\\Codigo_Project\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj": {
-              "projectPath": "D:\\Codigo Donet\\Codigo_Project\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj"
+            "D:\\Code Test\\Codigo Test\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj": {
+              "projectPath": "D:\\Code Test\\Codigo Test\\CodigoShopping.Domain\\CodigoShopping.Domain.csproj"
             },
-            "D:\\Codigo Donet\\Codigo_Project\\PointSystem.Infrasture\\CodigoShopping.Infrastructure.csproj": {
-              "projectPath": "D:\\Codigo Donet\\Codigo_Project\\PointSystem.Infrasture\\CodigoShopping.Infrastructure.csproj"
+            "D:\\Code Test\\Codigo Test\\PointSystem.Infrasture\\CodigoShopping.Infrastructure.csproj": {
+              "projectPath": "D:\\Code Test\\Codigo Test\\PointSystem.Infrasture\\CodigoShopping.Infrastructure.csproj"
             }
           }
         }

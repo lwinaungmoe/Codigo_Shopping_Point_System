@@ -18,32 +18,30 @@ namespace CodigoShopping.Infrastructure.DBContexts
 
         public DbSet<AppUser> AppUsers { get; set; }
 
-        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<ShoppingTransaction> ShoppingTransaction { get; set; }
 
-        public DbSet<TransactionDetails> TransactionDetails { get; set; }
+        public DbSet<ShoppingTransactionDetails> ShoppingTransactionDetails { get; set; }
 
         public DbSet<PointData> PointData { get; set; }
 
         public DbSet<PointSetting> PointSetting { get; set; }
 
-      //  private readonly IMediator _mediator;
         public IDbContextTransaction GetCurrentTransaction() => _currentTransaction;
 
         public bool HasActiveTransaction => _currentTransaction != null;
 
         private IDbContextTransaction _currentTransaction;
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfiguration(new CatalogItemEntityTypeConfiguration());
             builder.Entity<CatalogType>().ToTable(nameof(CatalogType));
             builder.Entity<AppUser>().ToTable(nameof(AppUsers));
-            builder.Entity<Transaction>().ToTable(nameof(Transactions));
-            builder.Entity<TransactionDetails>().ToTable(nameof(TransactionDetails));
+            builder.Entity<ShoppingTransaction>().ToTable(nameof(ShoppingTransaction));
+            builder.Entity<ShoppingTransactionDetails>().ToTable(nameof(ShoppingTransactionDetails));
             builder.Entity<PointData>().ToTable(nameof(PointData));
             builder.Entity<PointSetting>().ToTable(nameof(PointSetting));
         }
-
-      
 
         public async Task<IDbContextTransaction> BeginTransactionAsync()
         {
@@ -94,12 +92,5 @@ namespace CodigoShopping.Infrastructure.DBContexts
                 }
             }
         }
-
-      
-
-
-
-
-
     }
 }

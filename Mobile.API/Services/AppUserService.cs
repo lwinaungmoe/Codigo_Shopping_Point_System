@@ -91,7 +91,7 @@ namespace Mobile.API.Services
 
             appUsers = await _appUserRepository.GetAllAsync();
 
-            AppUser appUser = appUsers.Where(x => x.MobileNumber == request.MobileNumber).FirstOrDefault();
+            AppUser appUser = appUsers.Where(x => x.MobileNumber == request.MobileNumber && x.IsConfirmMobileNumber == true).FirstOrDefault();
 
             if (appUser != null)
             {

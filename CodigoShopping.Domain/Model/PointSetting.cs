@@ -12,6 +12,8 @@ namespace CodigoShopping.Domain.Model
         public string Name { get; set; }
         public string Description { get; set; }
         public int PointMaxScore { get; set; }
-        public decimal PointAmunt { get; set; }
+        public decimal PointAmount { get; set; }
+
+
     }
 }

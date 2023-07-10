@@ -13,3 +13,18 @@ D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\CodigoSho
 D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\refint\CodigoShopping.Infrastructure.dll
 D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.pdb
 D:\Codigo Donet\Codigo_Project\PointSystem.Infrasture\obj\Debug\net7.0\ref\CodigoShopping.Infrastructure.dll
+D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.csproj.AssemblyReference.cache
+D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.AssemblyInfoInputs.cache
+D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.AssemblyInfo.cs
+D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.dll
+D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\refint\CodigoShopping.Infrastructure.dll
+D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.pdb
+D:\Code Test\Codigo Test\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Infrastructure.deps.json
+D:\Code Test\Codigo Test\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Infrastructure.dll
+D:\Code Test\Codigo Test\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Infrastructure.pdb
+D:\Code Test\Codigo Test\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Domain.dll
+D:\Code Test\Codigo Test\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Domain.pdb
+D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.csproj.CopyComplete
+D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\ref\CodigoShopping.Infrastructure.dll
