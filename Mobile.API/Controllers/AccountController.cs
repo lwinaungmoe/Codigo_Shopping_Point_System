@@ -11,6 +11,7 @@ namespace Mobile.API.Controllers
     public class AccountController : ControllerBase
     {
         private readonly IAppUserService _appUserService;
+      
 
         public AccountController(IAppUserService appUserService)
         {

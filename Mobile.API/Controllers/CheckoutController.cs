@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using CodigoShopping.Domain.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Mobile.API.Model;
 
@@ -24,6 +25,13 @@ namespace Mobile.API.Controllers
           return await _checkOutService.CheckOutAsync(request);
         }
 
-       
+        [HttpGet("CheckOutHistory")]
+        public async Task<List<ShoppingTransaction>> CheckOutHistory()
+        {
+            return await _checkOutService.GetShoppingTransactions();
+        }
+
+
+
     }
 }
