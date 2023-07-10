@@ -47,7 +47,7 @@ namespace CodigoShopping.Infrastructure.DBContexts
         {
             return new List<PointSetting>()
         {
-            new() { Description = "NonAlcohol", Id=1, Name="NonAlcoholPoint", PointAmount = 20.0M, PointMaxScore=500},
+            new() { Description = "NonAlcohol",  Name="NonAlcoholPoint", PointAmount = 20.0M, PointMaxScore=500},
         };
         }
 

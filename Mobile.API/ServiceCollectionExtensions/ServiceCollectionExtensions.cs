@@ -23,6 +23,8 @@ namespace Mobile.API.ServiceCollectionExtensions
             services.AddScoped<IShoppingTransactionRepository, ShoppingTransactionRepository>();
             services.AddScoped<IPointDataRepository, PointDataRepository>();
             services.AddScoped<IPointSettingRepository, PointSettingRepository>();
+            services.AddScoped<ICacheService,CacheService>();
+            services.AddScoped<IPointSystemService, PointSystemService>();
             return services;
 
         }

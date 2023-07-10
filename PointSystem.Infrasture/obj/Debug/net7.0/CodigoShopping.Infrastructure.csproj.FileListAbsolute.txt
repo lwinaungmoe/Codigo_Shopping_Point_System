@@ -28,3 +28,5 @@ D:\Code Test\Codigo Test\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.
 D:\Code Test\Codigo Test\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Domain.pdb
 D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.csproj.CopyComplete
 D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\ref\CodigoShopping.Infrastructure.dll
+D:\Code Test\Codigo Test\PointSystem.Infrasture\bin\Debug\net7.0\CodigoShopping.Infrastructure.runtimeconfig.json
+D:\Code Test\Codigo Test\PointSystem.Infrasture\obj\Debug\net7.0\CodigoShopping.Infrastructure.genruntimeconfig.cache

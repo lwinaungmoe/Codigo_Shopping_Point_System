@@ -148,3 +148,8 @@ D:\Code Test\Codigo Test\Mobile.API\obj\Debug\net7.0\refint\Mobile.API.dll
 D:\Code Test\Codigo Test\Mobile.API\obj\Debug\net7.0\Mobile.API.pdb
 D:\Code Test\Codigo Test\Mobile.API\obj\Debug\net7.0\Mobile.API.genruntimeconfig.cache
 D:\Code Test\Codigo Test\Mobile.API\obj\Debug\net7.0\ref\Mobile.API.dll
+D:\Code Test\Codigo Test\Mobile.API\bin\Debug\net7.0\Humanizer.dll
+D:\Code Test\Codigo Test\Mobile.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Code Test\Codigo Test\Mobile.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Code Test\Codigo Test\Mobile.API\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Code Test\Codigo Test\Mobile.API\bin\Debug\net7.0\System.CodeDom.dll
